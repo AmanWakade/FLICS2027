@@ -1,0 +1,76 @@
+{
+    "preprocessor_source": "federated_data\\processed\\federated_preprocessor.pkl",
+    "processed_features": 108,
+    "clients": {
+        "client_1": {
+            "train": {
+                "rows": 818,
+                "events": 144,
+                "event_rate": 0.17603911980440098,
+                "features": 108
+            },
+            "validation": {
+                "rows": 205,
+                "events": 36,
+                "event_rate": 0.17560975609756097,
+                "features": 108
+            }
+        },
+        "client_2": {
+            "train": {
+                "rows": 505,
+                "events": 62,
+                "event_rate": 0.12277227722772277,
+                "features": 108
+            },
+            "validation": {
+                "rows": 127,
+                "events": 15,
+                "event_rate": 0.11811023622047244,
+                "features": 108
+            }
+        },
+        "client_3": {
+            "train": {
+                "rows": 502,
+                "events": 126,
+                "event_rate": 0.250996015936255,
+                "features": 108
+            },
+            "validation": {
+                "rows": 126,
+                "events": 32,
+                "event_rate": 0.25396825396825395,
+                "features": 108
+            }
+        },
+        "client_4": {
+            "train": {
+                "rows": 434,
+                "events": 15,
+                "event_rate": 0.03456221198156682,
+                "features": 108
+            },
+            "validation": {
+                "rows": 109,
+                "events": 4,
+                "event_rate": 0.03669724770642202,
+                "features": 108
+            }
+        },
+        "client_5": {
+            "train": {
+                "rows": 426,
+                "events": 53,
+                "event_rate": 0.12441314553990611,
+                "features": 108
+            },
+            "validation": {
+                "rows": 107,
+                "events": 13,
+                "event_rate": 0.12149532710280374,
+                "features": 108
+            }
+        }
+    }
+}

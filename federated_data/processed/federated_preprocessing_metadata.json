@@ -1,0 +1,86 @@
+{
+    "number_of_clients": 5,
+    "original_predictors": 39,
+    "processed_predictors": 108,
+    "numeric_predictors": [
+        "AGE",
+        "BMI_CALC",
+        "CURRENT_PRA",
+        "PEAK_PRA",
+        "INIT_CPRA",
+        "END_CPRA",
+        "AMIS",
+        "BMIS",
+        "DRMIS",
+        "HLAMIS",
+        "AGE_DON",
+        "KDPI",
+        "KDRI_MED",
+        "BMI_DON_CALC",
+        "CREAT_DON",
+        "BUN_DON",
+        "COLD_ISCH_KI",
+        "WARM_ISCH_TM_DON",
+        "DISTANCE"
+    ],
+    "categorical_predictors": [
+        "ON_DIALYSIS",
+        "GENDER",
+        "ABO",
+        "ETHNICITY",
+        "DGN_TCR",
+        "DIAB",
+        "PREV_TX",
+        "PREV_KI_TX",
+        "FUNC_STAT_TRR",
+        "CMV_DON",
+        "ABO_DON",
+        "DON_TY",
+        "GENDER_DON",
+        "HIST_HYPERTENS_DON",
+        "HIST_DIABETES_DON",
+        "DIABETES_DON",
+        "PUMP_KI",
+        "ABO_MAT",
+        "TX_TYPE",
+        "SHARE_TY"
+    ],
+    "clients": {
+        "client_1": {
+            "rows": 1023,
+            "events": 180,
+            "event_rate": 0.17595307917888564,
+            "processed_features": 108
+        },
+        "client_2": {
+            "rows": 632,
+            "events": 77,
+            "event_rate": 0.12183544303797468,
+            "processed_features": 108
+        },
+        "client_3": {
+            "rows": 628,
+            "events": 158,
+            "event_rate": 0.2515923566878981,
+            "processed_features": 108
+        },
+        "client_4": {
+            "rows": 543,
+            "events": 19,
+            "event_rate": 0.034990791896869246,
+            "processed_features": 108
+        },
+        "client_5": {
+            "rows": 533,
+            "events": 66,
+            "event_rate": 0.12382739212007504,
+            "processed_features": 108
+        }
+    },
+    "global_test": {
+        "rows": 842,
+        "events": 126,
+        "event_rate": 0.1496437054631829,
+        "processed_features": 108
+    }
+}
