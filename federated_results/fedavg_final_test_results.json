@@ -1,0 +1,15 @@
+{
+    "method": "FedAvg",
+    "num_clients": 5,
+    "num_rounds": 30,
+    "local_epochs": 10,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "best_round": 30,
+    "best_validation_c_index": 0.5812065718553153,
+    "best_validation_loss": 5.680913925170898,
+    "global_test_patients": 842,
+    "global_test_events": 126,
+    "final_test_loss": 5.768716335296631,
+    "final_test_c_index": 0.6054737516005122
+}

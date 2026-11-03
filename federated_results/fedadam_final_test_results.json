@@ -1,0 +1,19 @@
+{
+    "method": "FedAdam",
+    "num_clients": 5,
+    "num_rounds": 30,
+    "local_epochs": 10,
+    "client_learning_rate": 0.001,
+    "server_learning_rate": 0.01,
+    "weight_decay": 0.0001,
+    "beta_1": 0.9,
+    "beta_2": 0.99,
+    "tau": 1e-09,
+    "best_round": 14,
+    "best_validation_c_index": 0.6470874732125462,
+    "best_validation_loss": 5.565975189208984,
+    "global_test_patients": 842,
+    "global_test_events": 126,
+    "final_test_loss": 5.784308433532715,
+    "final_test_c_index": 0.5785651408450704
+}

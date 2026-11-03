@@ -1,0 +1,13 @@
+{
+    "method": "FedAdam",
+    "best_round": 14,
+    "best_validation_c_index": 0.6470874732125462,
+    "best_validation_loss": 5.565975189208984,
+    "local_epochs": 10,
+    "client_learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "server_lr": 0.01,
+    "beta_1": 0.9,
+    "beta_2": 0.99,
+    "tau": 1e-09
+}

@@ -1,0 +1,16 @@
+{
+    "method": "FedProx",
+    "num_clients": 5,
+    "num_rounds": 30,
+    "local_epochs": 10,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "proximal_mu": 0.1,
+    "best_round": 30,
+    "best_validation_c_index": 0.5802974219105137,
+    "best_validation_loss": 5.674928188323975,
+    "global_test_patients": 842,
+    "global_test_events": 126,
+    "final_test_loss": 5.76656436920166,
+    "final_test_c_index": 0.6038732394366197
+}
