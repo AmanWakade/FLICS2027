@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "federated-deepsurv"
+version = "1.0.0"
+description = "Federated DeepSurv for post-transplant malignancy prediction"
+requires-python = ">=3.11"
+
+dependencies = [
+    "flwr[simulation]>=1.32.0",
+    "torch",
+    "numpy",
+    "pandas",
+    "scipy",
+    "lifelines",
+    "scikit-learn",
+]
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["federated_deepsurv"]
+
+
+[tool.flwr.app]
+publisher = "aman"
+
+
+[tool.flwr.app.components]
+serverapp = "federated_deepsurv.server_app:app"
+clientapp = "federated_deepsurv.client_app:app"
+
+
+[tool.flwr.app.config]
+num-server-rounds = 30
+local-epochs = 2
+learning-rate = 0.001
+weight-decay = 0.0001

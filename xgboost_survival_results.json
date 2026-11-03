@@ -1,0 +1,28 @@
+{
+    "model": "XGBoost Survival-Cox",
+    "rows_total": 25212,
+    "rows_train": 20169,
+    "rows_test": 5043,
+    "events_train": 2255,
+    "events_test": 564,
+    "processed_features": 91,
+    "best_iteration": 94,
+    "best_validation_cox_nloglik": 7.302134205918311,
+    "test_c_index": 0.662703215541578,
+    "training_seconds": 0.7027924000285566,
+    "inference_seconds": 0.008268099976703525,
+    "parameters": {
+        "objective": "survival:cox",
+        "eval_metric": "cox-nloglik",
+        "tree_method": "hist",
+        "max_depth": 4,
+        "min_child_weight": 20,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "eta": 0.03,
+        "lambda": 1.0,
+        "alpha": 0.1,
+        "seed": 42,
+        "nthread": 4
+    }
+}

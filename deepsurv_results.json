@@ -1,0 +1,25 @@
+{
+    "dataset": "MODEL_DATASET_LEAKAGE_FREE.csv",
+    "random_state": 42,
+    "training_rows": 16135,
+    "validation_rows": 4034,
+    "testing_rows": 5043,
+    "training_events": 1804,
+    "validation_events": 451,
+    "testing_events": 564,
+    "processed_features": 168,
+    "hidden_units": [
+        128,
+        64,
+        32
+    ],
+    "dropout_rate": 0.3,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "best_epoch": 122,
+    "best_validation_loss": 7.009616851806641,
+    "validation_c_index": 0.6689471513257342,
+    "test_c_index": 0.6512353895299886,
+    "training_time_seconds": 25.18169593811035,
+    "inference_time_seconds": 0.004550457000732422
+}
